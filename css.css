@@ -1,0 +1,40 @@
+#username {
+  margin: 0 0 15px;
+}
+
+.card {
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
+label::after {
+  content: "*";
+  color: red;
+}
+body {
+  background-image: url("./images/pexels-bess-hamiti-36487.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
